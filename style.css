@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.hero .text {
+    max-width: 50%;
+}
+
+.hero img {
+    max-width: 40%;
+}
+
+.biodata {
+    padding: 50px;
+    background-color: white;
+}
+
+.biodata table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.biodata table, .biodata td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.portfolio {
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 5px;
+}
